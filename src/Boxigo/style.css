@@ -1,0 +1,153 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size:14px;
+    
+}
+.container {
+    width: 1200px; 
+    margin: 0 auto; 
+    padding: 30px;
+    box-sizing: border-box; 
+}
+p {
+    margin: 0px;
+    padding:0px;
+}
+.heading {
+    font-weight: bold;
+}
+.icon {
+    color: dimgrey;
+    margin-right: 5px;   
+}
+.icon-color {
+    color:#ef553b;
+}
+.header {
+    display: inline-block;
+    width: 160px;
+}
+.header ul {
+    margin: 0px;
+    padding: 0px;
+}
+.header ul li {
+    list-style: none;
+    margin: 0 0 30px 0;
+    font-weight: bold;
+    padding:8px 0px;
+}
+.header ul li.active {
+    border-left: 3px solid #ef553b;
+}
+.header ul li.active .icon{
+    padding-left: 5px;
+}
+.header ul li a {
+    text-decoration: none;
+    color: black;
+}
+.main-content {
+    display: inline-block;
+    vertical-align: top;
+    width: 975px;
+}
+.main-content .location {
+    margin: 30px 0px 50px 0;
+}
+.main-content .location .location-items {
+    display: inline-block;
+    width: 241px;
+}
+.main-content .location .location-items p.text-color{
+    color:#ef553b;
+}
+.main-content .location .location-items i.icon {
+    font-size: 25px;
+    color:#ef553b;
+}
+/* .main-wrapper .home-content {
+    outline: 1px solid red;
+} */
+.main-wrapper .home-content .home-items {
+    display : inline-block;
+    padding-right: 50px;
+  
+}
+.main-content .home-content .home-items .home-button {
+    display : inline-block;
+}
+.main-content .home-content .home-items .home-button .view-btn {
+    padding: 8px;
+    color:#ef553b;
+    border: 2px solid #ef553b;
+    border-radius: 3px;
+    background-color: white;
+
+}
+.main-content .home-content .home-items .home-button .quotes-btn {
+    padding: 8px;
+    color: white;
+    background-color: #ef553b;
+    border-radius: 3px;
+    border: none;
+}
+.main-wrapper .disclaimer {
+    margin: 45px 0px;
+}
+.main-content .hr{
+    border: 1px solid grey;
+}
+.main-content .inventory {
+    margin: 25px 0px;
+}
+.main-content .inventory .inventory-item {
+    display: inline;
+}
+.main-content .inventory .inventory-item .inventory-btn{
+    background-color: black;
+    color: white;
+    padding:4px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+.main-content .rooms .room-type {
+    padding: 8px;
+    color: #ef553b;
+    background-color: #e8e8e8;
+    border-radius: 3px;
+    margin: 5px 0px;
+}
+.main-content .rooms {
+    outline: 1px solid black;
+}
+.main-content .rooms .room-type .room-name {
+    display: inline-block;
+    align-items: left;  
+}
+.main-content .rooms .room-type .dropdown-arrow {
+    display: inline-block;
+    align-items: right;
+}
+.main-content .house-details {
+    margin: 25px 0;
+}
+.main-content .house-details .house-item {
+    display: inline-block;
+    color:#ef553b;
+}
+.main-content .house-details .house-item .house-btn {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+.main-content .house-details .house-details-items {
+    display: inline-block;
+    width: 200px;
+}
+
+
+
