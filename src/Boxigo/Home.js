@@ -22,7 +22,7 @@ class Home extends React.Component {
                         <Location />
                         <HomeContent />
                         <Disclaimer />
-                        <div className="ss" style={{display: "none"}}>
+                        <div>
                             <Inventory />
                             <Rooms />
                             <House />

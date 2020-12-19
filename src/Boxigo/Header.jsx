@@ -15,7 +15,7 @@ class Header extends Component {
             </li>
         })
         return (
-            <div className="header">{navItems}</div>
+            <div className="header"> <ul>{navItems}</ul></div>
         )
 
     }
