@@ -5,6 +5,7 @@ import Home from "./Boxigo/Home";
 function App() {
   return (
     <div className="App">
+      <div>Test</div>
      <Home/>
     </div>
   );
