@@ -1,28 +1,41 @@
-import React from 'react'
+import React, { Component } from 'react'
+import RoomType from "./room-type";
+import "./rooms-style.css"
 
-const Rooms = () => {
-    return (
-        <div className="rooms">
+class Rooms extends Component {
+    constructor(props) {
+        super(props)
+        this.state = [
+            {
+                name: "Living Room",
+                body: "Living room body"
+            },
+            {
+                name: "Bed Room",
+                body: "Bed room body"
+            },
+            {
+                name: "Kitchen Room",
+                body: "Kitchen room body"
+            },
+            {
+                name: "Bathroom",
+                body: "Bathroom room body"
+            },
+        ]
+    }
+    render() {
+        const roomInfo = this.state.map((items) => {
+            return <RoomType roomName={items.name}>
+                {items.body}
+            </RoomType>
+        })
+        return (
             <div className="rooms">
-                <div className="room-type">
-                    <div className="room-name">Living Room</div>
-                    <div className="dropdown-arrow"><i className="fas fa-angle-up"></i></div>
-                </div>
-                <div className="room-type">
-                    <div className="room-name">Bed Room</div>
-                    <div className="dropdown-arrow"><i className="fas fa-angle-up"></i></div>
-                </div>
-                <div className="room-type">
-                    <div className="room-name">Kitchen</div>
-                    <div className="dropdown-arrow"><i className="fas fa-angle-up"></i></div>
-                </div>
-                <div className="room-type">
-                    <div className="room-name">Bathroom</div>
-                    <div className="dropdown-arrow"><i className="fas fa-angle-up"></i></div>
-                </div>
+                    {roomInfo}
             </div>
-        </div>
-    )
+        )
+    }
 }
 
 export default Rooms;

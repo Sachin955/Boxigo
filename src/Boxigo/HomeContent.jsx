@@ -1,9 +1,13 @@
-import React,{Component} from 'react'
+import React, { Component } from 'react'
+// import Inventory from "./Inventory"
+// import Rooms from "./Rooms"
+// import House from "./House"
+// import NewHouse from "./NewHouse"
 
 class HomeContent extends Component {
-    constructor(){
+    constructor() {
         super()
-        
+
     }
     clickHandler = () => {
 
@@ -11,6 +15,10 @@ class HomeContent extends Component {
     render() {
         return (
             <div className="HomeContent">
+                {/* <Inventory />
+                <Rooms />
+                <House />
+                <NewHouse /> */}
                 <div className="home-content">
                     <div className="home">
                         <div className="home-items">
